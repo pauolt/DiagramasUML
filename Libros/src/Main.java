@@ -92,7 +92,7 @@ public class Main {
     public static void main(String[] args) {
         Persona persona = new Persona("Carlos");
         Libro libro1 = new Libro("1984", "George Owell");
-        Libro libro2 = new Libro("Fahreinheit 451", "Ray BRadbury");
+        Libro libro2 = new Libro("Fahreinheit 451", "Ray Bradbury");
 
         persona.tomarPrestado(libro1);
         persona.tomarPrestado(libro1);
